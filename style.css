@@ -164,3 +164,22 @@ header ul li a{
     background: #017143;
     clip-path: circle(600px at right 800px);
 }
+
+@media (max-width: 991px)
+{
+    header
+    {
+        padding: 20px;
+    }
+    header .logo{
+        position: relative;
+    }
+
+    header ul{
+        display: none;
+    }
+    section 
+    {
+        padding: 20px;
+    }
+}
